@@ -103,19 +103,11 @@ print('primes has now become:', primes)
 primes.append(middle_aged_primes)
 print('primes has finally become:', primes)
 ~~~
-<<<<<<< HEAD:_episodes/05-lists.md
-{: .python}
-~~~
-primes is currently: [2, 3, 5, 7, 9]
-primes has now become: [2, 3, 5, 7, 9, 11, 13, 17, 19]
-primes has finally become: [2, 3, 5, 7, 9, 11, 13, 17, 19, [37, 41, 43, 47]]
-=======
 {: .language-python}
 ~~~
 primes is currently: [2, 3, 5, 7]
 primes has now become: [2, 3, 5, 7, 11, 13, 17, 19]
 primes has finally become: [2, 3, 5, 7, 11, 13, 17, 19, [37, 41, 43, 47]]
->>>>>>> upstream/gh-pages:_episodes/11-lists.md
 ~~~
 {: .output}
 
@@ -353,7 +345,7 @@ IndexError: string index out of range
 > > ## Solution
 > > ~~~
 > > lithium
-> > 
+> >
 > > ~~~
 > > {: .language-python}
 > {: .solution}
@@ -432,7 +424,7 @@ IndexError: string index out of range
 > > {: .language-python}
 > > `new = old` makes `new` a reference to the list `old`; `new` and `old` point
 > > towards the same object.
-> > 
+> >
 > > `new = old[:]` however creates a new list object `new` containing all elements
 > > from the list `old`; `new` and `old` are different objects.
 > {: .solution}
